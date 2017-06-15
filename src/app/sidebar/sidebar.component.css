@@ -16,7 +16,7 @@
 
 :host > div > div:nth-child(2) {
     /*background-color: green;*/
-    display: flex;    
+    display: flex;
 }
 
 :host > div > div:nth-child(3) {
