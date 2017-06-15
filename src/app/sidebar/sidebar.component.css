@@ -1,0 +1,26 @@
+:host {
+    /*background-color: yellow;*/
+}
+
+:host > div {
+    /*background-color: magenta;*/
+    display: flex;
+    flex-grow: 1;
+}
+
+:host > div > div:nth-child(1) {
+    /*color: white;
+    background-color: red;*/
+    flex-grow: 1;
+}
+
+:host > div > div:nth-child(2) {
+    /*background-color: green;*/
+    display: flex;    
+}
+
+:host > div > div:nth-child(3) {
+    /*color: white;
+    background-color: blue;*/
+    flex-grow: 1;
+}

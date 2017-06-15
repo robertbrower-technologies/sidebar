@@ -1,0 +1,13 @@
+<div>
+  <div [hidden]="hidden" (mouseleave)="toggle()"
+    [@showLeftPanel]='hidden ? "small" : "large"'>
+    <ng-content select="left-panel"></ng-content>
+  </div>
+  <div (click)="toggle()" (mouseover)="toggle()">
+    <button (click)="toggle()">{{hidden ? 'OPEN' : 'CLOSE'}}</button>
+  </div>
+  <div [hidden]="!hidden"
+    [@showRightPanel]='hidden ? "large" : "small"'>
+    <ng-content select="right-panel"></ng-content>
+  </div>
+</div>

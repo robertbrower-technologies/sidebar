@@ -1,0 +1,8 @@
+app-sidebar {
+    display: flex;
+    flex-grow: 1;
+}
+
+left-panel > div, right-panel > div {
+    padding: 10px;
+}
